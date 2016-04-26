@@ -1,0 +1,17 @@
+{
+	"name": "rosbridge-usage",
+	"version": "",
+	"description": "",
+	"author": "bus710 <bus710@gmail.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git", 
+		"url": "git://github.com/bus710/rosbridge-usage"
+	},	
+	"dependencies":{
+		"sys" : "*",
+		"websocket" : ">=1.0.22"
+	},
+	"main": "app.js"
+}
+
