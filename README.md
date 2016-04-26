@@ -4,7 +4,7 @@
 This repository provides a basic usage and related files for rosbridge.
 
 Users can:
-- set up simulator on linux host and access via web interface.
+- set up a turtlebot simulator on linux host and control a turtlebot, which in the simulator, via web browser.
 - learn the essential structure for rosbridge.
 - have source and scripts.
 
