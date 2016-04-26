@@ -23,7 +23,7 @@ Users can:
 - Ubuntu 14.04
 - ROS Indigo Desktop Full
 - git
-- node & npm
+- node.js & npm
 
 ## Installation
 ```
