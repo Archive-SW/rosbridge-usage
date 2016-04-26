@@ -11,8 +11,7 @@ The next two lines bring in the JavaScript files that support rosbridge integrat
 -->
 <script type="text/javascript" src="http://cdn.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script>
 <script type="text/javascript" src="http://cdn.robotwebtools.org/roslibjs/current/roslib.min.js"></script>
-
-<script type="text/javascript" type="text/javascript">
+<script type="text/javascript">
 
 // This function connects to the rosbridge server running on the local computer on port 9090
 var rbServer = new ROSLIB.Ros({
@@ -87,6 +86,8 @@ function pubMessage() {
 	// Publish the message 
 	cmdVelTopic.publish(twist);
 }
+
+
 </script>
 </head>
 

@@ -37,13 +37,7 @@ http.createServer(function(req, res){
 
 	switch(path){
 		case '':
-			serveStaticFile(res, '/public/home.html', 'text/html');
-			break;
-		case '/about':
-			serveStaticFile(res, '/public/about.html', 'text/html');
-			break;
-		case '/img/logo.jpg':
-			serveStaticFile(res, '/public/img/logo.jpg', 'image/jpeg');
+			serveStaticFile(res, '/public/index.html', 'text/html');
 			break;
 		default:
 			serveStaticFile(res, '/public/404.html', 'text/html', 404);
