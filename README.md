@@ -46,6 +46,9 @@ rosrun turtlesim turtle_teleop_key
 # run below commands in one terminal
 cd ~/rosbridge-usage
 node app.ja
+
+# access your linux host from another device via web browser.
+# the address might be 192.168.0.x and the port is 3000.
 ```
 
 ## Commentary
