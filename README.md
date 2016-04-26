@@ -48,8 +48,9 @@ roslaunch rosbridge_server rosbridge_websocket.launch
 cd ~/rosbridge-usage
 node app.js
 
-# access your linux host from another device via web browser.
+# access your linux host from another device's web browser.
 # the address might be 192.168.0.x and the port is 3000.
+# of course, the linux host and another device should use same wireless network.
 ```
 
 ## Commentary
