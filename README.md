@@ -42,10 +42,11 @@ npm install
 roscore
 rosrun turtlesim turtlesim_node
 rosrun turtlesim turtle_teleop_key
+roslaunch rosbridge_server rosbridge_websocket.launch
 
 # run below commands in one terminal
 cd ~/rosbridge-usage
-node app.ja
+node app.js
 
 # access your linux host from another device via web browser.
 # the address might be 192.168.0.x and the port is 3000.
