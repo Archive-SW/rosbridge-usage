@@ -77,7 +77,7 @@ This iamges show the web page and the result in the simulator.
 ### Web page
 ![images/web-interface.png](images/web-interface.png)  
 
-### Result
+### Simulator
 ![images/simulator.png](images/simulator.png)  
 
 ## Reference
