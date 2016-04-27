@@ -28,16 +28,21 @@ function getIP(){
 			}
 		}
 	}
-	console.log('addr: ' + addresses);
-	console.log('port: 3000');
+	//console.log('addr: ' + addresses);
+	//console.log('port: 3000');
+	return addresses[0];
 }
 
 http.createServer(function(req, res){
 	var path = req.url.replace(/\/?(?:\?.*)?$/, '').toLowerCase();
+	//console.log('requested path: ' + path);
 
 	switch(path){
 		case '':
 			serveStaticFile(res, '/public/index.html', 'text/html');
+			break;
+		case '/scripts/client.js':
+			serveStaticFile(res, '/scripts/client.js', 'text/javascript');
 			break;
 		default:
 			serveStaticFile(res, '/public/404.html', 'text/html', 404);
@@ -49,4 +54,4 @@ console.log();
 console.log('press ^c to terminate');
 console.log();
 console.log('access to this host from your browser.');
-getIP();
+console.log(getIP() + ':3000');
