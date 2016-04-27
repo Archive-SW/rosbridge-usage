@@ -15,6 +15,7 @@ Users can:
 - [Description](#description)
 - [Requirement](#requirement)
 - [Installation](#installation)
+- [Edit](#edit)
 - [Launch](#launch)
 - [Commentary](#commentary)
 - [Result](#result)
@@ -36,6 +37,18 @@ git clone http://github.com/bus710/rosbridge-usage.git
 cd ~/rosbridge-usage
 npm install
 ```
+
+## Edit
+Before you launch the stacks, you should edit client.js file to match the host variable and your robot's ip address.
+```
+# the basic value is:
+var host = 'ws://192.168.0.5:3000';
+
+# if the robot's ip address is 192.168.0.7, then edit the variable as:
+var host = 'ws://192.168.0.7:3000';
+```
+This will be automated when I apply Angular.js.
+
 
 ## Launch
 ```
