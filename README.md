@@ -39,7 +39,7 @@ npm install
 ```
 
 ## Edit
-Before you launch the stacks, you should edit client.js file to match the host variable and your robot's ip address.
+Before you launch the stacks, you should edit <b>scripts/client.js</b> file to match the host variable and your robot's ip address.
 ```
 # the basic value is:
 var host = 'ws://192.168.0.5:3000';
