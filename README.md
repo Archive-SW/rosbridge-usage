@@ -17,6 +17,7 @@ Users can:
 - [Installation](#installation)
 - [Launch](#launch)
 - [Commentary](#commentary)
+- [Result](#result)
 - [Reference](#reference)
 
 ## Requirement
@@ -57,8 +58,13 @@ node app.js
 This image explains the sequence between the robot and browser.  
 ![images/rosbridge-sequence.png](images/rosbridge-sequence.png)
 
+## Result
 This iamges show the web page and the result in the simulator.
+
+### Web page
 ![images/web-interface.png](images/web-interface.png)  
+
+### Result
 ![images/simulator.png](images/simulator.png)  
 
 ## Reference
