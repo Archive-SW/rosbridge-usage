@@ -74,10 +74,10 @@ This image explains the sequence between the robot and browser.
 ## Result
 This iamges show the web page and the result in the simulator.
 
-- Web page
+- Web page  
 ![images/web-interface.png](images/web-interface.png)  
 
-- Simulator
+- Simulator  
 ![images/simulator.png](images/simulator.png)  
 
 ## Reference
