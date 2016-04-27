@@ -54,8 +54,8 @@ node app.js
 ```
 
 ## Commentary
-This image explains the sequence between the robot and browser.
-![images/rosbridge-usage.png](images/rosbridge-usage.png)
+This image explains the sequence between the robot and browser.  
+![images/rosbridge-sequence.png](images/rosbridge-sequence.png)
 
 ## Reference
 - http://wiki.ros.org/rosbridge_suite
