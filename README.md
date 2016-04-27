@@ -9,7 +9,7 @@ Users can:
 - have source and scripts.
 
 ## Maintainer
-- [SJ Kim](http://bus710.net)<<bus710@gmail.com>>
+- [SJ Kim](http://bus710.net) <<bus710@gmail.com>>  
 
 ## Table of contents
 - [Description](#description)
@@ -56,6 +56,10 @@ node app.js
 ## Commentary
 This image explains the sequence between the robot and browser.  
 ![images/rosbridge-sequence.png](images/rosbridge-sequence.png)
+
+This iamges show the web page and the result in the simulator.
+![images/web-interface.png](images/web-interface.png)  
+![images/simulator.png](images/simulator.png)  
 
 ## Reference
 - http://wiki.ros.org/rosbridge_suite
