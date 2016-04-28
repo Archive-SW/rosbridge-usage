@@ -42,10 +42,10 @@ npm install
 Before you launch the stacks, you should edit <b>scripts/client.js</b> file to match the host variable and your robot's ip address.
 ```
 # the basic value is:
-var host = 'ws://192.168.0.5:3000';
+var host = 'ws://192.168.0.5:9090';
 
 # if the robot's ip address is 192.168.0.7, then edit the variable as:
-var host = 'ws://192.168.0.7:3000';
+var host = 'ws://192.168.0.7:9090';
 ```
 This will be automated when I apply Angular.js.
 
