@@ -1,4 +1,4 @@
-var host = 'ws://127.0.0.1:9090';
+var host = 'ws://192.168.0.5:9090';
 
 // This function connects to the rosbridge server running on the local computer on port 9090
 
